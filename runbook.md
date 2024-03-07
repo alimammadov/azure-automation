@@ -1,3 +1,6 @@
+## Signed runbooks on a Windows Hybrid Runbook Worker
+
+### Create signing Certificate
 ```# Create a self-signed certificate that can be used for code signing
 $SigningCert = New-SelfSignedCertificate -CertStoreLocation cert:\LocalMachine\my `
                                         -Subject &quot;CN=contoso.com&quot; `
